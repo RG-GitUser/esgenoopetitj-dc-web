@@ -388,6 +388,16 @@ body {
   background: linear-gradient(135deg, rgba(105, 152, 171, 0.3), rgba(105, 152, 171, 0.1));
   border-radius: var(--radius);
   border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent);
+}
+
+.card-icon svg {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
 }
 
 .card h3 {
